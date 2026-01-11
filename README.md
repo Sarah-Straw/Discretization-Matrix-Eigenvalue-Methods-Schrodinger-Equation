@@ -20,10 +20,20 @@ By discretizing space into N points the infinite dimensional Hilbert space Hamil
 
 ## Output Plots
 
-![Probe orbiting the Moon](images/probe_and_moon_plot_clip.png)
-> Probe orbiting the Moon while both orbit the Earth. Simulated in Python with `solve_ivp`.
+![Discretization](images/H_discret_converg.png)
+> Plotting how varying discretization number N and the range over which to discrete effects the accuracy of the model.
 
-![Probe orbiting the Moon](images/2d_speed_of_probe_plot.png)
-> Speed of the probe along two orthogonal axes verying with time.
+![Hydrogen Potential](images/H_potential.png)
+> Plotting the hydrogen potential matrix produced.
+
+![Hydrogen Probability Density](images/H_prob_density_l_3.png)
+> Plotting probability density of wavefunctions radially outwards from the centre of the atom for quantum angular momentum l=3. 
+
+![QHO Wavefunctions](images/QHO_comparison_E6.png)
+> Plotting the Quantum Harmonic Oscillator energy wavefunctions.
+
+![QHO Wavefunctions](images/QHO_wavefunctions.png)
+> Plotting the first 10 Quantum Harmonic Oscillator energy wavefunctions together.
+
 
 ---
